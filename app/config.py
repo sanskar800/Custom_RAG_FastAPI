@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     
     # Redis Configuration
     REDIS_HOST: str = "localhost"
-    REDIS_PORT: int = 6379
+    REDIS_PORT: int = 11046
     REDIS_PASSWORD: Optional[str] = None
     REDIS_TTL: int = 86400
     
