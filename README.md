@@ -68,3 +68,20 @@ uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 http://localhost:8000/docs
 ```
 
+---
+
+## Technology Stack
+
+| Component            | Technology              | Purpose                                      |
+|----------------------|--------------------------|----------------------------------------------|
+| Backend Framework    | FastAPI                  | Async REST API server                        |
+| Vector Database      | Qdrant                   | Semantic search & similarity matching        |
+| Document Database    | MongoDB                  | Metadata & booking storage                   |
+| Cache & Sessions     | Redis                    | Conversation memory & state                  |
+| LLM                  | Groq (Llama 3.1 8B)      | Fast text generation                         |
+| Embeddings           | SentenceTransformers     | Local embedding generation                   |
+| PDF Processing       | PyPDF2                   | Extract text from PDFs                       |
+| Validation           | Pydantic                 | Request/response validation                  |
+
+
+
