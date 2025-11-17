@@ -45,6 +45,7 @@ cd rag-backend
 
 pip install -r requirements.txt
 
+#Create a .env file in the project root
 # Groq API
 GROQ_API_KEY=your_groq_api_key_here
 
@@ -59,4 +60,11 @@ QDRANT_API_KEY=your_qdrant_api_key_here
 REDIS_HOST=your-redis-host.com
 REDIS_PORT=6379
 REDIS_PASSWORD=your_redis_password
+
+#Run the Server
+uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+
+#Access the API
+http://localhost:8000/docs
+```
 
