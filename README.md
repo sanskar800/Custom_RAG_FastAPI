@@ -38,11 +38,25 @@ A custom Retrieval-Augmented Generation (RAG) backend system that enables intell
 
 ## Installation
 
-### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/ysanskar800/Custom_RAG_FastAPI.git
 cd rag-backend
 
-### 2. Install Dependencies
-```bash
 pip install -r requirements.txt
+
+# Groq API
+GROQ_API_KEY=your_groq_api_key_here
+
+# MongoDB
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net
+
+# Qdrant
+QDRANT_URL=https://your-instance.cloud.qdrant.io:6333
+QDRANT_API_KEY=your_qdrant_api_key_here
+
+# Redis
+REDIS_HOST=your-redis-host.com
+REDIS_PORT=6379
+REDIS_PASSWORD=your_redis_password
+
