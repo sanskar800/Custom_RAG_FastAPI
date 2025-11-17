@@ -41,7 +41,7 @@ A custom Retrieval-Augmented Generation (RAG) backend system that enables intell
 
 ```bash
 git clone https://github.com/ysanskar800/Custom_RAG_FastAPI.git
-cd rag-backend
+cd Custom_RAG_FastAPI
 
 pip install -r requirements.txt
 
